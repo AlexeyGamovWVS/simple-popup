@@ -1,20 +1,4 @@
-import "../../front-scss/pages/compets.scss";
-import setGsapHorizontalScroll from "../components/directionsHorScroll";
 import Popup from "../components/popup";
-import "../utils/utils";
-
-const scrollTriggerParams = {
-  itemSelector: ".directions-compets__card",
-  triggerSelector: ".directions-compets__cards",
-  breakPoints: {
-    tb: 1199,
-    ts: 991,
-    mb: 767,
-    ms: 575,
-  },
-};
-
-setGsapHorizontalScroll(scrollTriggerParams);
 
 const popupData = {
   popupSelector: ".popup-two-column",
